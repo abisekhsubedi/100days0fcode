@@ -4,7 +4,7 @@ setInterval(() => {
     let  htime = d.getHours();
     let mtime = d.getMinutes();
     let stime = d.getSeconds();
-    console.log(htime, mtime, stime);
+    // console.log(htime, mtime, stime);
     let hrotation = (30 * htime) + (mtime/2) + (stime/120);
     let mrotation = (6* mtime) + (stime/10);
     let srotation = 6 * stime;
