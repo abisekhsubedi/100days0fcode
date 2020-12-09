@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+
+}
+
+h1 {
+    font: 4vw 'Space Mono', monospace;
+    color: rgb(7, 14, 20);
+}
+
+#clockContainer {
+    /* background-color: rgb(224, 54, 82); */
+    /* outline: 1px solid green; */
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+
+    position: relative;
+
+
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background-color: #003;
+    border-radius: 8px;
+    transform-origin: bottom;
+}
+
+
+#second {
+    width: 3%;
+    height: 46%;
+    /* background-color: rgb(255, 31, 80); */
+    top: 5%;
+    left: 49%;
+    /* display: none; */
+
+}
+
+#hour {
+    width: 3%;
+    height: 30%;
+    top: 20%;
+    left: 49%;
+}
+
+#minute {
+    /* display: none; */
+    width: 3%;
+    height: 40%;
+    top: 10%;
+    left: 49%;
+    /* background: red; */
+}
