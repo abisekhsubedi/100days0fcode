@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font: 4vw 'Space Mono', monospace;
+    font: 2vw 'Space Mono', monospace;
     color: rgb(7, 14, 20);
 }
 
@@ -42,7 +42,7 @@ h1 {
 
 
 #second {
-    width: 3%;
+    width: 2%;
     height: 46%;
     /* background-color: rgb(255, 31, 80); */
     top: 5%;
@@ -52,7 +52,7 @@ h1 {
 }
 
 #hour {
-    width: 3%;
+    width: 2%;
     height: 30%;
     top: 20%;
     left: 49%;
@@ -60,7 +60,7 @@ h1 {
 
 #minute {
     /* display: none; */
-    width: 3%;
+    width: 2%;
     height: 40%;
     top: 10%;
     left: 49%;
