@@ -1,0 +1,9 @@
+<p> Hello </p>
+
+This is mark-up language. HTML is a mark-up language which is used in making web pages. Although HTML is just one part of building a webpage. We need CSS, JavaScript too if we are building modern websites.
+
+<p> </p> --> Elements
+<p> --> opening tag
+</p> --> closing tag
+
+we put our content inside a element.

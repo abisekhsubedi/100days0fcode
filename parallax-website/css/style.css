@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    color: #666;
+    font: 16px "Lato", sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* parallax effects */
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url(../img/img.jpg);
+    /* background-size: cover; */
+    min-height: 100%;
+
+}
+
+.pimg2 {
+    background-image: url(../img/img1.jpg);
+    /* background-size: cover; */
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(../img/img2.jpg);
+    /* background-size: cover; */
+    min-height: 400px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #131316;
+
+    padding: 10px 20px;
+    font: 2rem 'Ranchers';
+    font-weight: bolder;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.ptext .border {
+    background-color: #e7d153;
+    padding: 20px;
+    width: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: lightcyan;
+    color: #131316;
+}
+
+.section-dark {
+
+    background-color: #131316;
+    color: lightcyan;
+}
+
+footer {
+    /* position:absolute;
+    bottom: 0; */
+    height: 20vw;
+    background: #c1937d;
+    color: #131316;
+    display: grid;
+    place-items: center;
+}
