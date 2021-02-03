@@ -9,3 +9,7 @@
 **Day 3**
 
 - Make a responsive website Header.
+
+**Day 4**
+
+- Learned SVG, clippath, aspect-ratio and `@keyframe` animation
