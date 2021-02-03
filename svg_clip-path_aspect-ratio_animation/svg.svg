@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1.388" height="1.388" viewBox="0 0 1.388 1.388">
+  <defs>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="matrix(0.829, 0.559, -0.559, 0.829, -369.634, -577.79)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(630 272)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1" height="1" rx="0.5" stroke="none"/>
+      <rect x="0.5" y="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(631 273)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect id="fill" stroke="none"/>
+      <path d="M0,-0.49998999999479565h0.000010000005204346962M0.5,0v0.000010000005204346962M0.000010000005204346962,0.5h-0.000010000005204346962M-0.49998999999479565,0.000010000005204346962v-0.000010000005204346962" fill="none" clip-path="url(#clip)"/>
+    </g>
+  </g>
+</svg>
